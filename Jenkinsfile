@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout Repo') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/bpatil-b/Monitoring-setup.git'
+                    url: 'https://github.com/bpatil-b/Project1_Monitoring_server_metrics.git'
             }
         }
 
